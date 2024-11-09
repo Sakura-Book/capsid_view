@@ -12,7 +12,7 @@
     <body>
         <div id="viewer1" style="position: relative; width: 500px; height: 500px;"></div>
         <script>
-            const sourceUrl = 'https://raw.githubusercontent.com/molstar/molstar/master/examples/mvs/1h9t_domain_labels.mvsj';
+            const sourceUrl = 'https://raw.githubusercontent.com/Sakura-Book/molstar_test/main/mvsj_files/T_1/Circoviridae/Circovirus/6dzu.mvsj';
             molstar.Viewer
                 .create('viewer1', { layoutIsExpanded: false, layoutShowControls: false })
                 .then(viewer => viewer.loadMvsFromUrl(sourceUrl, 'mvsj'));
