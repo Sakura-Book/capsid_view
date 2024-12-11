@@ -241,7 +241,7 @@ async function updateGrid() {
             
             try {
                 // スナップショットを読み込む
-                await viewer.loadSnapshotFromUrl(structure.snapshot, 'molx');//
+                await viewer.loadSnapshotFromUrl(structure.snapshot, 'molj');//
                 //await viewer.loadMvsFromUrl(structure.mvsj, 'mvsj')
             } catch (snapshotError) {
                 console.warn(`Snapshot load failed for ${structure.name}, falling back to default structure:`, snapshotError);
