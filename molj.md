@@ -241,25 +241,25 @@ async function updateGrid() {
             
             try {
                 // スナップショットを読み込む
-                //await viewer.loadSnapshotFromUrl(structure.snapshot, 'molx');//
-                await viewer.loadMvsFromUrl(structure.mvsj, 'mvsj')
+                await viewer.loadSnapshotFromUrl(structure.snapshot, 'molx');//
+                //await viewer.loadMvsFromUrl(structure.mvsj, 'mvsj')
             } catch (snapshotError) {
                 console.warn(`Snapshot load failed for ${structure.name}, falling back to default structure:`, snapshotError);
                 // スナップショットのロードに失敗した場合、通常の構造読み込みにフォールバック
-                await viewer.loadStructureFromUrl(structure.url, structure.format)
-                    .then(() => {
-                        const plugin = viewer.plugin;
-                        const state = plugin.state.data;
-                        const update = state.build()
-                            .update(state.select('structure-representation'), (old) => {
-                                return {
-                                    ...old,
-                                    type: 'cartoon',
-                                    color: 'chain-id'
-                                };
-                            });
-                        plugin.runTask(plugin.state.updateTree(update));
-                    });
+                // await viewer.loadStructureFromUrl(structure.url, structure.format)
+                //     .then(() => {
+                //         const plugin = viewer.plugin;
+                //         const state = plugin.state.data;
+                //         const update = state.build()
+                //             .update(state.select('structure-representation'), (old) => {
+                //                 return {
+                //                     ...old,
+                //                     type: 'cartoon',
+                //                     color: 'chain-id'
+                //                 };
+                //             });
+                //         plugin.runTask(plugin.state.updateTree(update));
+                //     });
             }
         } catch (error) {
             console.error(`Error initializing viewer for ${structure.name}:`, error);
