@@ -9,7 +9,6 @@
 
     <body>
         <div id="viewer2" style="position: relative; width: 500px; height: 500px;"></div>
-        <button class="button" onclick="loadView1();">View 1</button>
         <script>
             let theViewer;
             function load(viewer, url, replace) {
