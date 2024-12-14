@@ -10,7 +10,6 @@
     <body>
         <div id="viewer2" style="position: relative; width: 500px; height: 500px;"></div>
         <button class="button" onclick="loadView1();">View 1</button>
-        <button class="button" onclick="loadView2();">View 2</button>
         <script>
             let theViewer;
             function load(viewer, url, replace) {
@@ -19,12 +18,7 @@
                     .then(text => molstar.PluginExtensions.mvs.MVSData.fromMVSJ(text))
                     .then(mvsData => molstar.PluginExtensions.mvs.loadMVS(viewer.plugin, mvsData, { sourceUrl: url, sanityChecks: true, replaceExisting: replace }));
             }
-            function loadView1() {
-                load(theViewer, 'https://raw.githubusercontent.com/molstar/molstar/master/examples/mvs/1cbs.mvsj', true);
-            }
-            function loadView2() {
-                load(theViewer, 'https://raw.githubusercontent.com/molstar/molstar/master/examples/mvs/1cbs-focus.mvsj', true);
-            }
+            load(theViewer, 'https://raw.githubusercontent.com/Sakura-Book/molstar_test/main/mvsj_files/T_1/Unclassified/Albetovirus/2buk.mvsj', true);
             molstar.Viewer
                 .create('viewer2', { layoutIsExpanded: false, layoutShowControls: false })
                 .then(viewer => {
