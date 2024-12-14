@@ -17,12 +17,12 @@
                     .then(text => molstar.PluginExtensions.mvs.MVSData.fromMVSJ(text))
                     .then(mvsData => molstar.PluginExtensions.mvs.loadMVS(viewer.plugin, mvsData, { sourceUrl: url, sanityChecks: true, replaceExisting: replace }));
             }
-            load(theViewer, 'https://raw.githubusercontent.com/molstar/molstar/master/examples/mvs/1cbs.mvsj', true);
+            
             molstar.Viewer
                 .create('viewer2', { layoutIsExpanded: false, layoutShowControls: false })
                 .then(viewer => {
                     theViewer = viewer;
-                    loadView1();
+                    load(theViewer, 'https://raw.githubusercontent.com/molstar/molstar/master/examples/mvs/1cbs.mvsj', true);
                 });
         </script>
     </body>
