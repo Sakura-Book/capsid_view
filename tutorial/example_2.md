@@ -17,7 +17,7 @@
                     .then(text => molstar.PluginExtensions.mvs.MVSData.fromMVSJ(text))
                     .then(mvsData => molstar.PluginExtensions.mvs.loadMVS(viewer.plugin, mvsData, { sourceUrl: url, sanityChecks: true, replaceExisting: replace }));
             }
-            load(theViewer, 'https://raw.githubusercontent.com/Sakura-Book/molstar_test/main/mvsj_files/T_1/Unclassified/Albetovirus/2buk.mvsj', true);
+            load(theViewer, 'https://raw.githubusercontent.com/molstar/molstar/master/examples/mvs/1cbs.mvsj', true);
             molstar.Viewer
                 .create('viewer2', { layoutIsExpanded: false, layoutShowControls: false })
                 .then(viewer => {
