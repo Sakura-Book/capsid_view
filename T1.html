@@ -145,21 +145,21 @@ const structures = [
         id: 'viewer9',
         name: 'L-A virus (1m1c)',
         url: 'https://files.rcsb.org/download/1M1C.pdb',
-        format: 'pdb'
+        format: 'pdb',
         snapshot: 'https://raw.githubusercontent.com/matsunagalab/capsid_view/main/5zju.molj', 
     },
     {
         id: 'viewer10',
         name: 'Tobacco mosaic virus (6r7m)',
         url: 'https://files.rcsb.org/download/6R7M.pdb',
-        format: 'pdb'
+        format: 'pdb',
         snapshot: 'https://raw.githubusercontent.com/matsunagalab/capsid_view/main/5zju.molj', 
     },
     {
         id: 'viewer11',
         name: 'Chymotrypsin inhibitor (2m99)',
         url: 'https://files.rcsb.org/download/2M99.pdb',
-        format: 'pdb'
+        format: 'pdb',
         snapshot: 'https://raw.githubusercontent.com/matsunagalab/capsid_view/main/5zju.molj', 
     }
 ];
@@ -251,8 +251,8 @@ async function updateGrid() {
             
             try {
                 // スナップショットを読み込む
-                //await viewer.loadSnapshotFromUrl(structure.snapshot, 'molx');//
-                await viewer.loadMvsFromUrl(structure.mvsj, 'mvsj')
+                await viewer.loadSnapshotFromUrl(structure.snapshot, 'molj');
+                // await viewer.loadMvsFromUrl(structure.mvsj, 'mvsj')
             } catch (snapshotError) {
                 console.warn(`Snapshot load failed for ${structure.name}, falling back to default structure:`, snapshotError);
                 // スナップショットのロードに失敗した場合、通常の構造読み込みにフォールバック
