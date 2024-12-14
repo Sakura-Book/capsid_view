@@ -1,16 +1,16 @@
 {
-  "timestamp": 1734192201331,
+  "timestamp": 1734193413105,
   "version": "4.8.0",
-  "current": "I44h_VMYzc2HnPWctGWWUw",
+  "current": "Cwk0wVlDLVdeJURv1Zoq5w",
   "playback": {
     "isPlaying": false,
     "nextSnapshotDelayInMs": 1500
   },
   "entries": [
     {
-      "timestamp": 1734192201331,
+      "timestamp": 1734193413105,
       "snapshot": {
-        "id": "I44h_VMYzc2HnPWctGWWUw",
+        "id": "Cwk0wVlDLVdeJURv1Zoq5w",
         "data": {
           "tree": {
             "transforms": [
@@ -19,7 +19,7 @@
                 "transformer": "build-in.root",
                 "params": {},
                 "ref": "-=root=-",
-                "version": "lG5DIU2BuHYk76JHiIz56w"
+                "version": "3-ko7j_4O7S1dfkLoybe9A"
               },
               {
                 "parent": "-=root=-",
@@ -27,46 +27,46 @@
                 "params": {
                   "url": {
                     "kind": "url",
-                    "id": "eN5YpMhTfPCbZHusHq8ZWg",
-                    "url": "https://models.rcsb.org/2BUK.bcif"
+                    "id": "D4jxrfrM1MWT5j7A9Yabxw",
+                    "url": "https://models.rcsb.org/4V4M.bcif"
                   },
-                  "label": "RCSB PDB: 2buk (bcif)",
+                  "label": "RCSB PDB: 4v4m (bcif)",
                   "isBinary": true
                 },
                 "state": {
                   "isGhost": true
                 },
-                "ref": "nF7L07eEVuDxknZo3eB0Gw",
-                "version": "Gx_ReKOVk2Ag30GkkigP_g"
+                "ref": "CF6gbMe5xshtAbj8A4j8yA",
+                "version": "FHCSl6JKhlG5-OofGq4xhg"
               },
               {
-                "parent": "nF7L07eEVuDxknZo3eB0Gw",
+                "parent": "CF6gbMe5xshtAbj8A4j8yA",
                 "transformer": "ms-plugin.parse-cif",
                 "params": {},
                 "state": {
                   "isGhost": true
                 },
-                "ref": "uJ-fhh2SUeTiGX-pAHoQlQ",
-                "version": "o4413vOUiStfmvQMz2FAWQ"
+                "ref": "JoS4PKatA-Sk2myl_RQsuQ",
+                "version": "QKPaxHZPNAYwa_aR54EUVA"
               },
               {
-                "parent": "uJ-fhh2SUeTiGX-pAHoQlQ",
+                "parent": "JoS4PKatA-Sk2myl_RQsuQ",
                 "transformer": "ms-plugin.trajectory-from-mmcif",
                 "params": {},
-                "ref": "CHqwzVPd2tJlRJzVHOWemg",
-                "version": "VCAR2uF5km-Qw87UOIy0DA"
+                "ref": "XzYj_V_CpldGDTO9_eXRmg",
+                "version": "HSQYi4z7tnJ-XNsN51zaWw"
               },
               {
-                "parent": "CHqwzVPd2tJlRJzVHOWemg",
+                "parent": "XzYj_V_CpldGDTO9_eXRmg",
                 "transformer": "ms-plugin.model-from-trajectory",
                 "params": {
                   "modelIndex": 0
                 },
-                "ref": "suKmMXNA1CoDXA7MTqdrbQ",
-                "version": "79y-IAZ11OHkXwAV0wu2OA"
+                "ref": "EO7N8N03h3SOJGK585V0Mg",
+                "version": "-hb-QzDdjnVhAAlTexIn-A"
               },
               {
-                "parent": "suKmMXNA1CoDXA7MTqdrbQ",
+                "parent": "EO7N8N03h3SOJGK585V0Mg",
                 "transformer": "ms-plugin.custom-model-properties",
                 "params": {
                   "autoAttach": [],
@@ -93,11 +93,11 @@
                     }
                   }
                 },
-                "ref": "dKRGrJ-sAsfJGD624JIhyw",
-                "version": "sh5oyWJ41_w7nhMP_ZQ8rg"
+                "ref": "lvHf9gmykl8uid4-vYEzJQ",
+                "version": "6DkqXJmvAAM975hhP9ciAQ"
               },
               {
-                "parent": "dKRGrJ-sAsfJGD624JIhyw",
+                "parent": "lvHf9gmykl8uid4-vYEzJQ",
                 "transformer": "ms-plugin.structure-from-model",
                 "params": {
                   "type": {
@@ -108,11 +108,11 @@
                     }
                   }
                 },
-                "ref": "_nGsFZ5am_Pmd2ZoJ4EeUg",
-                "version": "X_RuTXQnwLwnn0fqpS8qbQ"
+                "ref": "Sh38Nz9x-eFuQarLl1Alxg",
+                "version": "6lB8ai9H9igB7mcirOJxIQ"
               },
               {
-                "parent": "_nGsFZ5am_Pmd2ZoJ4EeUg",
+                "parent": "Sh38Nz9x-eFuQarLl1Alxg",
                 "transformer": "ms-plugin.custom-structure-properties",
                 "params": {
                   "autoAttach": [],
@@ -216,254 +216,11 @@
                     }
                   }
                 },
-                "ref": "RoEv2TwzT8lJbYxlftDtLQ",
-                "version": "mScC4fZrcVYO8zhIJOhHtA"
+                "ref": "3X0xhFbDRcEjuHBDE8Douw",
+                "version": "-jQ8F01ZSw52HaEYaHhxwA"
               },
               {
-                "parent": "dKRGrJ-sAsfJGD624JIhyw",
-                "transformer": "ms-plugin.model-unitcell-3d",
-                "params": {
-                  "alpha": 1,
-                  "quality": "auto",
-                  "material": {
-                    "metalness": 0,
-                    "roughness": 1,
-                    "bumpiness": 0
-                  },
-                  "clip": {
-                    "variant": "pixel",
-                    "objects": []
-                  },
-                  "emissive": 0,
-                  "density": 0.2,
-                  "instanceGranularity": false,
-                  "lod": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "cellSize": 200,
-                  "batchSize": 2000,
-                  "doubleSided": false,
-                  "flipSided": false,
-                  "flatShaded": false,
-                  "ignoreLight": false,
-                  "celShaded": false,
-                  "xrayShaded": false,
-                  "transparentBackfaces": "off",
-                  "bumpFrequency": 0,
-                  "bumpAmplitude": 1,
-                  "cellColor": 16753920,
-                  "cellScale": 2,
-                  "ref": "model",
-                  "attachment": "corner"
-                },
-                "state": {
-                  "isHidden": true
-                },
-                "ref": "QdS1iXQvH_zoroIskj1NHg",
-                "version": "Mc5te6bNuk7fN8CgJzA3aQ"
-              },
-              {
-                "parent": "-=root=-",
-                "transformer": "ms-plugin.download",
-                "params": {
-                  "url": {
-                    "kind": "url",
-                    "id": "N74WUDjq49N0oI2NpGOJtQ",
-                    "url": "https://models.rcsb.org/4V4M.bcif"
-                  },
-                  "label": "RCSB PDB: 4v4m (bcif)",
-                  "isBinary": true
-                },
-                "state": {
-                  "isGhost": true
-                },
-                "ref": "KrNt7_VNluP2RVt9gNowTw",
-                "version": "oChxwmdoTuFoaXvR24g54A"
-              },
-              {
-                "parent": "KrNt7_VNluP2RVt9gNowTw",
-                "transformer": "ms-plugin.parse-cif",
-                "params": {},
-                "state": {
-                  "isGhost": true
-                },
-                "ref": "nVFfGOHkrULNC9P2Q100fg",
-                "version": "pquLCNf1xmfXOJ4Zz3Kttw"
-              },
-              {
-                "parent": "nVFfGOHkrULNC9P2Q100fg",
-                "transformer": "ms-plugin.trajectory-from-mmcif",
-                "params": {},
-                "ref": "w3BRAu-HKvpcwbe8IsWPkA",
-                "version": "sTIWijoWS0elhGxFMSzA2Q"
-              },
-              {
-                "parent": "w3BRAu-HKvpcwbe8IsWPkA",
-                "transformer": "ms-plugin.model-from-trajectory",
-                "params": {
-                  "modelIndex": 0
-                },
-                "ref": "mrvSvSf4pA2YL5nJRQamdw",
-                "version": "zD7XLTuKhnP2U8SKjnt83A"
-              },
-              {
-                "parent": "mrvSvSf4pA2YL5nJRQamdw",
-                "transformer": "ms-plugin.custom-model-properties",
-                "params": {
-                  "autoAttach": [],
-                  "properties": {
-                    "asym_id_offset": {
-                      "value": {
-                        "auth": 1,
-                        "label": 5
-                      }
-                    },
-                    "index": {
-                      "value": 1
-                    },
-                    "max_index": {
-                      "value": 1
-                    },
-                    "rcsb_validation_report": {
-                      "source": {
-                        "name": "server",
-                        "params": {
-                          "baseUrl": "https://files.rcsb.org/pub/pdb/validation_reports"
-                        }
-                      }
-                    }
-                  }
-                },
-                "ref": "0AMZK6NZK4-hD1_xNMWHEQ",
-                "version": "OGWbq_J3He3xOjA9VRJ3iA"
-              },
-              {
-                "parent": "0AMZK6NZK4-hD1_xNMWHEQ",
-                "transformer": "ms-plugin.structure-from-model",
-                "params": {
-                  "type": {
-                    "name": "assembly",
-                    "params": {
-                      "id": "1",
-                      "dynamicBonds": false
-                    }
-                  }
-                },
-                "ref": "IcP1kvG1ZlORxofuCvJ_GQ",
-                "version": "Oau0SOqla23S1-6Tst4TVg"
-              },
-              {
-                "parent": "IcP1kvG1ZlORxofuCvJ_GQ",
-                "transformer": "ms-plugin.custom-structure-properties",
-                "params": {
-                  "autoAttach": [],
-                  "properties": {
-                    "index": {
-                      "value": 1
-                    },
-                    "max_index": {
-                      "value": 1
-                    },
-                    "molstar_accessible_surface_area": {
-                      "numberOfSpherePoints": 92,
-                      "probeSize": 1.4,
-                      "nonPolymer": false,
-                      "traceOnly": false
-                    },
-                    "molstar_computed_interactions": {
-                      "providers": {
-                        "ionic": {
-                          "name": "off",
-                          "params": {}
-                        },
-                        "pi-stacking": {
-                          "name": "on",
-                          "params": {
-                            "distanceMax": 5.5,
-                            "offsetMax": 2,
-                            "angleDevMax": 30
-                          }
-                        },
-                        "cation-pi": {
-                          "name": "on",
-                          "params": {
-                            "distanceMax": 6,
-                            "offsetMax": 2
-                          }
-                        },
-                        "halogen-bonds": {
-                          "name": "on",
-                          "params": {
-                            "distanceMax": 4,
-                            "angleMax": 30
-                          }
-                        },
-                        "hydrogen-bonds": {
-                          "name": "on",
-                          "params": {
-                            "distanceMax": 3.5,
-                            "backbone": true,
-                            "accAngleDevMax": 45,
-                            "ignoreHydrogens": false,
-                            "donAngleDevMax": 45,
-                            "accOutOfPlaneAngleMax": 90,
-                            "donOutOfPlaneAngleMax": 45,
-                            "water": false,
-                            "sulfurDistanceMax": 4.1
-                          }
-                        },
-                        "weak-hydrogen-bonds": {
-                          "name": "off",
-                          "params": {}
-                        },
-                        "hydrophobic": {
-                          "name": "off",
-                          "params": {}
-                        },
-                        "metal-coordination": {
-                          "name": "on",
-                          "params": {
-                            "distanceMax": 3
-                          }
-                        }
-                      },
-                      "contacts": {
-                        "lineOfSightDistFactor": 1
-                      }
-                    },
-                    "molstar_computed_secondary_structure": {
-                      "type": {
-                        "name": "auto",
-                        "params": {}
-                      }
-                    },
-                    "molstar_computed_valence_model": {
-                      "assignCharge": "auto",
-                      "assignH": "auto"
-                    },
-                    "molstar_struct_symmetry": {
-                      "serverType": "rcsb",
-                      "serverUrl": "https://data.rcsb.org/graphql",
-                      "symmetryIndex": 0
-                    },
-                    "anvil_computed_membrane_orientation": {
-                      "numberOfSpherePoints": 175,
-                      "stepSize": 1,
-                      "minThickness": 20,
-                      "maxThickness": 40,
-                      "asaCutoff": 40,
-                      "adjust": 14,
-                      "tmdetDefinition": false
-                    }
-                  }
-                },
-                "ref": "Ex9cbDgZ9dGNjYKzsiw9Dg",
-                "version": "7EkxGBFwhiTH1v3zKKLk6Q"
-              },
-              {
-                "parent": "Ex9cbDgZ9dGNjYKzsiw9Dg",
+                "parent": "3X0xhFbDRcEjuHBDE8Douw",
                 "transformer": "ms-plugin.structure-component",
                 "params": {
                   "type": {
@@ -476,11 +233,11 @@
                 "tags": [
                   "structure-component-static-polymer"
                 ],
-                "ref": "ixFbmw4cdjx_YYDk4FlZSQ",
-                "version": "Y2mPUPCF8OAQsCnVIawvAQ"
+                "ref": "5USjiKKEswBYaNH4gibIsQ",
+                "version": "xc4i9g_leFreXlVbLOKZjA"
               },
               {
-                "parent": "ixFbmw4cdjx_YYDk4FlZSQ",
+                "parent": "5USjiKKEswBYaNH4gibIsQ",
                 "transformer": "ms-plugin.structure-representation-3d",
                 "params": {
                   "type": {
@@ -590,11 +347,11 @@
                 "tags": [
                   "polymer"
                 ],
-                "ref": "IpiuncID8UVsb5SVgIoa6Q",
-                "version": "4TAzWhieUcExVV5YnvJyPw"
+                "ref": "jdkdWWshjCHGznhADstjeg",
+                "version": "qKb3d5uWI5e2ezLnNNZccg"
               },
               {
-                "parent": "0AMZK6NZK4-hD1_xNMWHEQ",
+                "parent": "lvHf9gmykl8uid4-vYEzJQ",
                 "transformer": "ms-plugin.model-unitcell-3d",
                 "params": {
                   "alpha": 1,
@@ -635,8 +392,8 @@
                 "state": {
                   "isHidden": true
                 },
-                "ref": "vJQzl8whadSyy7Qtoy9-9g",
-                "version": "mV0VV4U2_ExowFCjtyKWqw"
+                "ref": "wsa2w1uOTpnby5OZg95dKQ",
+                "version": "GLOD6V8UPyc7yhE1lN1SOA"
               }
             ]
           }
@@ -686,7 +443,7 @@
               44.93161232472223
             ],
             "radius": 102.61494526095842,
-            "radiusMax": 400.56084715792434,
+            "radiusMax": 258.0268952753831,
             "fog": 15,
             "clipFar": true,
             "minNear": 5,
@@ -752,7 +509,7 @@
             },
             "cameraClipping": {
               "far": true,
-              "radius": 74,
+              "radius": 60,
               "minNear": 5
             },
             "cameraResetDurationMs": 250,
